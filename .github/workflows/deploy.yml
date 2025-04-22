@@ -2,12 +2,6 @@ name: Continuous Deployment - Run Azure Login with OIDC
 on:
     workflow_dispatch:
 
-    push:
-      paths:
-        - src/**
-        - pom.xml
-      branches:
-        - main
          
 
 permissions:
